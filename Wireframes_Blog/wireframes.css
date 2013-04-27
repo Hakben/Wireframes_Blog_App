@@ -9,6 +9,18 @@ section {
 article {
   border-style: solid;
   padding: 5px 5px 5px 5px;
-  overflow: hidden; /* Contain child elements that have been floated. */
+  /*overflow: hidden;  Contain child elements that have been floated. */
 }
 
+header {text-align:center;}
+
+img
+{
+float:left;
+margin:10px;
+}
+
+.text_line
+{
+clear:both;
+}
